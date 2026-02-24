@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+   background-image: url("https://mir-s3-cdn-cf.behance.net/projects/404/a8d08a140795635.Y3JvcCwxOTE3LDE1MDAsNDIsMA.jpg");
+   background-size: cover;
+   background-position: center;
+}
+
+
+
+#parent {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.songs_list {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.songs_list::-webkit-scrollbar {
+  display: none;            
+}
+
+.songs{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 15px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.songs:hover{
+    background-color: beige;
+}
+.songs:active{
+    scale: 0.97;
+}
+
+.songs img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+
+
+
+.card {
+    height: 500px;
+    width: 400px;
+    background: radial-gradient(circle at top, #1DB954 0%, #121212 60%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+
+ .card .card_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 80px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqiI2sgaMDTGy7fUCLKKSqvGOqtXO9xPtm1w&s");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.status_bar {
+    height: 10px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.fill_bar {
+    height: 100%;
+    width: 0%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+
+.songs_txt{
+    display: flex;
+
+}
+
+
+button {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(18, 193, 184);
+    border: none;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+}
+
+button:active {
+    scale: 0.97;
+}
