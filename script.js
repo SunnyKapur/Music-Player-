@@ -1,36 +1,36 @@
 let arr = [{
         songName: "Badli Si Hawa",
-        url: "../audio/Badli.mp3",
+        url: "./audio/Badli.mp3",
         img: "https://c.saavncdn.com/376/Badli-Si-Hawa-Hai-From-The-Ba-ds-Of-Bollywood-Hindi-2025-20250825191010-500x500.jpg",
     },
     {
         songName: "Dilbar",
-        url: "../audio/Dilbar.mp3",
+        url: "./audio/Dilbar.mp3",
         img: "https://a10.gaanacdn.com/gn_img/albums/7rVW1Rbk56/VW1EnqEgWk/size_m.jpg",
     },
     {
         songName: "Ghafoor",
-        url: "../audio/Ghafoor.mp3",
+        url: "./audio/Ghafoor.mp3",
         img: "https://i.ytimg.com/vi/ZFoGMWceM2A/maxresdefault.jpg",
     },
     {
         songName: "Raanjhan",
-        url: "../audio/Raanjhan.mp3",
+        url: "./audio/Raanjhan.mp3",
         img: "https://www.lyricsgoo.com/wp-content/uploads/2025/07/ja-ranjhan-ranjhan-lyrics.webp",
     },
     {
         songName: "Om Namo",
-        url: "../audio/OmNamo.mp3",
+        url: "./audio/OmNamo.mp3",
         img: "https://i.ytimg.com/vi/lvUlT8VyOaw/sddefault.jpg",
     },
     {
         songName: "Roar",
-        url: "../audio/Roar.mp3",
+        url: "./audio/Roar.mp3",
         img: "https://i.ytimg.com/vi/lvUlT8VyOaw/sddefault.jpg",
     },
     {
         songName: "Saiyaara",
-        url: "../audio/Saiyaara.mp3",
+        url: "./audio/Saiyaara.mp3",
         img: "https://c.ndtvimg.com/2025-07/9ln27jac_saiyaara_625x300_27_July_25.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
     }
 ]
